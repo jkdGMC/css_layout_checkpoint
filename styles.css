@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
+}
+
+h1{
+  font-size: 2.125rem;
+}
+
 body{
   margin: 0;
   font-family: Roboto, Arial, sans-serif;
@@ -54,7 +65,7 @@ main section{
 main .first_section{
   display: flex;
   flex-direction: column;
-  color: #ababab;
+  color: #6e6e6e;
   align-items: center;
   margin-top: 45px;
 }
@@ -78,12 +89,14 @@ main .first_section .title_section h1{
 
 main .first_section .description_container{
   display: flex;
-  width: 50%;
+  width: 83%;
 }
 
 main .first_section .description_container p{
+  width: 60%;
   margin-right: 50px;
   line-height: 25px;
+  font-weight: 400;
 }
 
 main .cards_section .cards_container{
@@ -200,7 +213,7 @@ main .company_section .company_container .company_list ul li a img:hover{
 
 main .stats_section{
   width: 100%;
-  background-color: #f3fcfd;
+  background-color: #d9f5f8;
   color: grey;
 }
 
@@ -269,10 +282,16 @@ main .stats_section .cards_stats .stat_card p{
   font-size: .8125em;
 }
 
+main .last_section{
+  width: 100%;
+}
+
 main .last_section .last_section_container {
+  width: 70%;
   display: flex;
   flex-direction: column;
   color: #74747f;
+  margin-left: 35%;
 }
 
 main .last_section .last_section_container .desc_last_section{
@@ -291,6 +310,8 @@ main .last_section .last_section_container .desc_last_section p{
 main .last_section .last_section_container .city_cards{
   display: flex;
   flex-wrap: wrap;
+  margin-left: -25%;
+  margin-bottom: 30px;
 }
 
 main .last_section .last_section_container .city_cards .city_card{
@@ -330,11 +351,24 @@ main .last_section .last_section_container .city_card .city_card_desc_container 
   background-color: #3468ab;
 }
 
-main .last_section .last_section_container .join_us input{
-  text-align: center;
+main .last_section .last_section_container .join_us{
+  width: 62%;
 }
 
-main 
+main .last_section .last_section_container .join_us input{
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #4f84c9;
+  color: white;
+  width: 230px;
+  height: 40px;
+  margin-top: 15px;
+  font-size: .75rem;
+  font-weight: bold;
+  transition: background-color .125s ease-in-out .05s;
+  margin-left: 145px;
+}
 
 footer{
   text-align: center;
