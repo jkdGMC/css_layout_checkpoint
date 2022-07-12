@@ -312,6 +312,7 @@ main .last_section .last_section_container .city_cards{
   flex-wrap: wrap;
   margin-left: -25%;
   margin-bottom: 30px;
+  margin-top: 60px;
 }
 
 main .last_section .last_section_container .city_cards .city_card{
