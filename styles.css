@@ -56,6 +56,21 @@ header .navigation_panel nav ul li a:hover{
   color: #00b39b;
 }
 
+header .navigation_panel .dropdown_nav .dropdown_container ul{
+  position: absolute;
+  width: 7%;
+  margin-top: 15px;
+  background-color: rgb(235, 229, 229);
+  border-radius: 5px;
+  padding-top: 20px;
+}
+
+header .navigation_panel .dropdown_nav .dropdown_container ul li{
+  display: inline-block;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
 main{
   margin-top: 50px;
   display: flex;
