@@ -56,6 +56,10 @@ header .navigation_panel nav ul li a:hover{
   color: #00b39b;
 }
 
+header .navigation_panel .dropdown_nav .dropdown_container{
+  display: none;
+}
+
 header .navigation_panel .dropdown_nav .dropdown_container ul{
   position: absolute;
   width: 7%;
